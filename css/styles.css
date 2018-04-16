@@ -2,40 +2,26 @@
     margin: 0%;
 }
 
-
-/* não sei usar se tem alguma forma de usar css em conjunto com boosttrep */
-/* 
 img{
-    box-sizing: border-box;
-} */
-
-/* body{
-    font-size: 14px;
-    line-height: 1.8;
-} */
-
-.row{
-    box-sizing: border-box;
-    display: grid;
-
+    z-index: 2;
+    border: 2px solid black;
+   display: flex;
+   transition: transform .2s;
 }
 
-.icon{
-    padding-left:2%;
+img:hover{
+    /* width: 400px;
+    height:400px; */
+    transform: scale(1.09);
+ }
+
+
+.sec{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     
 }
 
 
-
-.nav a:hover {
-    color: black;
-
-}
-/* .image{
-    width: 39%;
-    height:auto;
-    display: block;
-    position: relative;
-    z-index:1;
-   
-} */
